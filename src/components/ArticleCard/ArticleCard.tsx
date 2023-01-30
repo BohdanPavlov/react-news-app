@@ -38,7 +38,7 @@ const ArticleCard: FC<ArticleCardProps> = ({
 				flexDirection: 'column',
 			}}
 			onClick={() => {
-				navigate(`/${id}`);
+				navigate(`/react-news-app/${id}`);
 			}}
 		>
 			<CardActionArea
